@@ -8,14 +8,14 @@
 
 ## Installation
 
-`go get github.com/fsamin/nofuncflags``
+`go get github.com/fsamin/nofuncflags`
 
 ### Usage
 
 Any funcions containing a boolean as argument are extracted.
 
 ```shell
-nofuncflags [<flags>] [<path>...]
+nofuncflags [<path>...]
 ```
 
 ### Usage with gometalinter
@@ -27,7 +27,7 @@ gometalinter --linter=nofuncflags:nofuncflags:PATH:LINE:COL:MESSAGE --enable=nof
 Usage with Visual Studio Code
 To use **nofuncflags** with VS Code you need to have Go Meta Linter installed, then add following to your User Settings (Ctrl+,)
 
-```json
+```
 "go.lintTool": "gometalinter",
 "go.lintFlags": [
   "--disable-all", // Disable all linters
