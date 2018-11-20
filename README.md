@@ -31,7 +31,7 @@ To use **nofuncflags** with VS Code you need to have Go Meta Linter installed, t
 "go.lintTool": "gometalinter",
 "go.lintFlags": [
   "--disable-all", // Disable all linters
-  "--linter=nofuncflags:nofuncflags:PATH:LINE:COL:MESSAGE"
+  "--linter=nofuncflags:nofuncflags:PATH:LINE:COL:MESSAGE",
   "--enable=nofuncflags",
   "--enable=golint", // Enable any other linters you want to use
 ],
